@@ -1,2 +1,2 @@
 # RaspPi_Speed_Monitor
-Raspberry Pi speed monitor
+This project will use a raspberry pi to monitor my internet speed. I will use InfluxDB and Grafana to store and graph the data. The speed test will be from Ookla’s speedtest https://www.speedtest.net/. The speed test will run by using a python script. This will output data as a csv file for monitoring my internet speeds. I will automate this process using a crontab so I can run it routinely for more accurate data.
